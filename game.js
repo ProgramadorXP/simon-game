@@ -68,7 +68,7 @@ function animatePress(currentColour) {
     setTimeout(function() { 
         $("#" + currentColour).removeClass('pressed');
     }, 100)
-
+    
 }
 
 function checkAnswer(currentLevel) {
